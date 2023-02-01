@@ -1,0 +1,37 @@
+.container{
+  border:2px solid rgb(0, 59, 0);  
+  height: 70vh;
+  width: 100vw;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    padding: 30px 100px;
+    align-items: center;
+    .title{
+        text-transform: uppercase; 
+        font-size: 20px;  
+    }
+    form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    input{
+        padding: 15;
+        width: 100%;
+        border-bottom: 1px solid rgb(1, 59, 1);
+        &::placeholder{
+            color: darkcyan;
+        }
+    }
+  }
+}
